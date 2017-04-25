@@ -9,7 +9,7 @@
     <meta name="author" content="Developer">
     <link rel="icon" href="assets/img/favicon/favicon.ico">
 
-    <title>Bootstrap Ready Template by Developer</title>
+    <title>Single page - Bootstrap Ready Template by Developer</title>
 
     <!-- Bootstrap core css -->
     <link rel="stylesheet" type="text/css" href="assets/css/vendor/bootstrap/css/bootstrap.min.css" media="all"/>
@@ -54,7 +54,7 @@
                         </div>
                         <div id="navbar" class="navbar-collapse collapse">
                             <ul class="nav navbar-nav navbar-right">
-                                <li class="active"><a href="index.html">Home</a></li>
+                                <li class="active"><a href="#">Home</a></li>
                                 <li><a href="#about">About</a></li>
                                 <li><a href="#contact">Contact</a></li>
                                 <li class="dropdown">
@@ -87,7 +87,7 @@
                                 <div class="col-md-12">
                                     <div class="well">
                                         <h1>
-                                            Blog Page
+                                            Single Blog Post
                                         </h1>
                                     </div> <!-- /.page-header -->
                                 </div>
@@ -99,12 +99,12 @@
                                 <div class="col-md-8">
 
                                     <!-- Post loop start -->
-                                    <article class="post">
+                                    <article class="post-single">
 
                                         <div class="entry-title">
                                             <!-- Post title -->
                                             <h2>
-                                                <a href="single.html">Intrinsicly harness end-to-end schemas</a>
+                                                <a href="#">Intrinsicly harness end-to-end schemas</a>
                                             </h2>
                                         </div> <!-- /.entry-title -->
 
@@ -128,66 +128,80 @@
 
                                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, veritatis,
                                                 tempora, necessitatibus inventore nisi quam quia repellat ut tempore laborum
-                                                possimus eum dicta id animi corrupti debitis ipsum officiis rerum.</p>
-                                            <a class="btn btn-primary" href="single.html">Read More <span
-                                                    class="glyphicon glyphicon-chevron-right"></span></a>
-
-                                        </div> <!-- /.entry-content -->
-
-                                    </article> <!-- /.post -->
-
-                                    <!-- Post loop start -->
-                                    <article class="post">
-
-                                        <div class="entry-title">
-                                            <!-- Post title -->
-                                            <h2>
-                                                <a href="single.html">Intrinsicly harness end-to-end schemas</a>
-                                            </h2>
-                                        </div> <!-- /.entry-title -->
-
-                                        <div class="entry-meta">
-                                            <ul class="list-unstyled list-inline">
-                                                <li><span class="glyphicon glyphicon-user"></span> by <a href="single.html">Start
-                                                    Bootstrap</a></li>
-                                                <li><span class="glyphicon glyphicon-time"></span> Posted on August 28, 2013
-                                                    at 10:00 PM
-                                                </li>
-                                            </ul>
-                                        </div> <!-- /.entry-meta -->
-
-                                        <div class="entry-thumb">
-
-                                            <img class="img-responsive" src="http://placehold.it/900x300" alt="">
-
-                                        </div> <!-- /.entry-thumb -->
-
-                                        <div class="entry-content">
-
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, veritatis,
+                                                possimus eum dicta id animi corrupti debitis ipsum officiis rerum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, veritatis,
                                                 tempora, necessitatibus inventore nisi quam quia repellat ut tempore laborum
                                                 possimus eum dicta id animi corrupti debitis ipsum officiis rerum.</p>
-                                            <a class="btn btn-primary" href="single.html">Read More <span
-                                                    class="glyphicon glyphicon-chevron-right"></span></a>
+
+                                            <p>Seamlessly benchmark emerging benefits rather than state of the art action items. Dramatically embrace seamless e-business for e-business convergence. Authoritatively promote customer directed alignments through interactive methodologies. Dynamically aggregate mission-critical imperatives rather than team building core competencies. Uniquely unleash equity invested interfaces after clicks-and-mortar catalysts for change.</p>
 
                                         </div> <!-- /.entry-content -->
 
-                                    </article> <!-- /.post -->
+                                    </article> <!-- /.post-single -->
 
                                     <!-- Post Navigation -->
                                     <div class="post-pagination">
-                                        <ul class="pagination">
-                                            <li class="disabled"><a href="#" aria-label="Previous"><i
-                                                    class="fa fa-angle-double-left" aria-hidden="true"></i></a></li>
-                                            <li class="active"><a href="#">1<span class="sr-only">(current)</span></a>
-                                            </li>
-                                            <li><a href="#">2</a></li>
-                                            <li><a href="#">3</a></li>
-                                            <li><a href="#">4</a></li>
-                                            <li><a href="#" aria-label="Next"><i class="fa fa-angle-double-right"
-                                                                                 aria-hidden="true"></i></a></li>
-                                        </ul>
-                                    </div> <!-- /.entry-thumb -->
+
+                                        <nav aria-label="...">
+                                            <ul class="pager">
+                                                <li class="previous"><a href="#"><span aria-hidden="true">&larr;</span> Older</a></li>
+                                                <li class="next"><a href="#">Newer <span aria-hidden="true">&rarr;</span></a></li>
+                                            </ul>
+                                        </nav>
+
+                                    </div> <!-- /.post-pagination -->
+
+                                    <div class="comment-form">
+                                        <div class="well">
+                                            <h4>Leave a Comment:</h4>
+                                            <form role="form">
+                                                <div class="form-group">
+                                                    <textarea class="form-control" rows="3"></textarea>
+                                                </div>
+                                                <button type="submit" class="btn btn-primary">Submit</button>
+                                            </form>
+                                        </div>
+
+                                        <hr>
+
+                                        <!-- Comment -->
+                                        <div class="media">
+                                            <a class="pull-left" href="#">
+                                                <img class="media-object" src="http://placehold.it/64x64" alt="">
+                                            </a>
+                                            <div class="media-body">
+                                                <h4 class="media-heading">Start Bootstrap
+                                                    <small>August 25, 2014 at 9:30 PM</small>
+                                                </h4>
+                                                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                                            </div>
+                                        </div>
+
+                                        <!-- Comment -->
+                                        <div class="media">
+                                            <a class="pull-left" href="#">
+                                                <img class="media-object" src="http://placehold.it/64x64" alt="">
+                                            </a>
+                                            <div class="media-body">
+                                                <h4 class="media-heading">Start Bootstrap
+                                                    <small>August 25, 2014 at 9:30 PM</small>
+                                                </h4>
+                                                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                                                <!-- Nested Comment -->
+                                                <div class="media">
+                                                    <a class="pull-left" href="#">
+                                                        <img class="media-object" src="http://placehold.it/64x64" alt="">
+                                                    </a>
+                                                    <div class="media-body">
+                                                        <h4 class="media-heading">Nested Start Bootstrap
+                                                            <small>August 25, 2014 at 9:30 PM</small>
+                                                        </h4>
+                                                        Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                                                    </div>
+                                                </div>
+                                                <!-- End Nested Comment -->
+                                            </div>
+                                        </div>
+                                    </div> <!-- /.comment-form -->
 
                                 </div>
 
